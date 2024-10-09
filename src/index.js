@@ -16,13 +16,6 @@ connectDB();
 app.use(express.json());
 
 
-// app.get('/', (req, res) => {
-//     console.log('Root route accessed');
-//     res.send('Welcome to the Crypto Tracker API! Use /api/stats?coin=bitcoin or /api/deviation?coin=bitcoin to get cryptocurrency data.');
-// });
-
-  
-
 // Routes
 app.use('/api', apiRoutes);
 
